@@ -49,6 +49,12 @@
 * 【未解决】Charles中导出app的https抓包出来的数据
 * 【已解决】Android手机锤子M1L中查看已安装app的目录和文件中是否有cer等证书文件
 * 【已解决】Mac中夜神安卓模拟器中安装Charles证书
+* 【未解决】安卓游戏加了代理后支付页面时mitmdump报错：TlsException SSL handshake error Error SSL routines ssl3_read_bytes sslv3 alert certificate unknown
+* 【记录】给iPhone11中安装Charles的SSL根证书
+* 【部分解决】iOS逆向：用插件ssl-kill-switch2绕过苹果的证书绑定实现Charles抓包https
+* 【已解决】Mac Catalina中使用USB转接头转换出的有线网卡的网络
+* 【记录】购买绿联的USB转接头CM252转换出有线网卡接口
+* 【已解决】Mac Catalina中用绿联的USB多功能扩展坞的有线网卡接口使用有线网络
 * 
 * [【整理】Mac中用Charles抓包iOS或Android手机app中包括https的数据](http://www.crifan.com/mac_use_charles_capture_crawl_ios_android_phone_app_data_include_https_package)
 * [【已解决】Charles无法抓包部分加了SSL Certificate Pinning的https包](http://www.crifan.com/charles_cannot_crawl_parital_https_request_package_which_using_ssl_cerificate_pinning)
@@ -76,3 +82,7 @@
 * [HTTPS为什么可以被charles抓包 - 简书](https://www.jianshu.com/p/a1bd0bcfe6a5)
 * [Keyless SSL: The Nitty Gritty Technical Details](https://blog.cloudflare.com/keyless-ssl-the-nitty-gritty-technical-details/)
 * [mitmproxy 使用指南 - FooFish-Python之禅](https://foofish.net/mitmproxy-toturial.html)
+* [Android Security: SSL Pinning. Using SSL in an Android app is easy… | by Matthew Dolan | Medium](https://medium.com/@appmattus/android-security-ssl-pinning-1db8acb6621e)
+* [Bypassing Certificate Pinning on Android for fun and profit | by Felipe Lima | Medium](https://medium.com/@felipecsl/bypassing-certificate-pinning-on-android-for-fun-and-profit-1b0d14beab2b)
+* [Charles抓抖音的包为啥都是unKnow - 技能讨论 - 睿论坛 (iosre.com)](https://iosre.com/t/charles%E6%8A%93%E6%8A%96%E9%9F%B3%E7%9A%84%E5%8C%85%E4%B8%BA%E5%95%A5%E9%83%BD%E6%98%AFunknow/20202)
+* 

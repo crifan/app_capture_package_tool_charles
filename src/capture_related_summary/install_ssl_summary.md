@@ -11,22 +11,22 @@
 比如：
 
 * 小米4
-  * ![](../../../assets/img/xiaomi_4_network_monitored_by_third_party.png)
+  * ![xiaomi_4_network_monitored_by_third_party](../assets/img/xiaomi_4_network_monitored_by_third_party.png)
 * 某安卓真机
-  * ![](../../../assets/img/android_system_notice_network_not_safe.png)
+  * ![](../assets/img/android_system_notice_network_not_safe.png)
   * 点击后，可以查看到对应的证书，即此处的Charles证书
-    * ![](../../../assets/img/click_notice_network_monitored.png)
-    * ![](../../../assets/img/click_show_charles_proxy_ca.png)
+    * ![](../assets/img/click_notice_network_monitored.png)
+    * ![](../assets/img/click_show_charles_proxy_ca.png)
 * 网易MuMu安卓模拟器
-  * ![](../../../assets/img/mumu_notice_network_monitored.png)
-  * ![](../../../assets/img/mumu_click_show_credential.png)
-  * ![](../../../assets/img/mumu_charles_proxy_ca.png)
+  * ![](../assets/img/mumu_notice_network_monitored.png)
+  * ![](../assets/img/mumu_click_show_credential.png)
+  * ![](../assets/img/mumu_charles_proxy_ca.png)
 
 所以：如果在你调试抓包完毕之后，不再抓包时，记得卸载掉手机中的CA证书：
 
-![](../../../assets/img/charles_ca_click_delete.png)
+![](../assets/img/charles_ca_click_delete.png)
 
-![](../../../assets/img/sure_permenent_delete_ca.png)
+![](../assets/img/sure_permenent_delete_ca.png)
 
 让手机恢复安全。
 
@@ -39,13 +39,13 @@
     * 京东app
       * 打开H5页面会提示
         * `当前网站证书不可信且证书链长度为1，可能是服务器没有配置完整证书链，是否信任并继续访问？`
-        * ![](../../../assets/img/jd_warn_charles_cert_not_trusted.png)
+        * ![](../assets/img/jd_warn_charles_cert_not_trusted.png)
           * 点击后，可以看到的确是Charles的证书
-            * ![](../../../assets/img/click_show_charles_cert_detail_for_jd.png)
+            * ![](../assets/img/click_show_charles_cert_detail_for_jd.png)
           * 有时候此警告会频繁跳出，点击关闭的速度都赶不上跳出警告的速度，导致无法正常继续查看页面内容
     * 支付宝app
       * 在用支付宝支付时，会弹出当前支付环境不可信，是否继续支付 之类的提示
-        * ![](../../../assets/img/alipay_notice_payment_environment_risk.jpg)
+        * ![](../assets/img/alipay_notice_payment_environment_risk.jpg)
 
 ## 要先设置手机中Wifi代理为Charles后才能下载到ssl证书
 
@@ -59,7 +59,7 @@ http://chls.pro/ssl
 
 而无法看到，弹出下载文件的弹框的，无法下载到证书文件。
 
-![](../../../assets/img/charles_getssl_only_show_normal_html.png)
+![](../assets/img/charles_getssl_only_show_normal_html.png)
 
 ## 不同移动端下载到的证书名和格式不太相同
 
@@ -80,12 +80,12 @@ http://chls.pro/ssl
 
 * 真机：`锤子M1L Android 6.0.1`
   * pem文件：`charles-ssl-proxying-certificate.pem`
-    * ![](../../../assets/img/smartisan_m1l_charles_ssl_download_pem.png)
+    * ![](../assets/img/smartisan_m1l_charles_ssl_download_pem.png)
 * 真机：`小米9 Android 9.0`
   * pem文件：`charles-ssl-proxying-certificate.pem`
-    * ![](../../../assets/img/xiaomi_9_charles_ssl_download_pem.png)
+    * ![](../assets/img/xiaomi_9_charles_ssl_download_pem.png)
 * 真机：`小米5`，`红米5A`，`小米4`
-  * ![](../../../assets/img/xiaomi_4_charles_getssl_crt.png)
+  * ![](../assets/img/xiaomi_4_charles_getssl_crt.png)
   * crt文件：`getssl.crt`
     * 注：
       * 后来无法正常安装此`getssl.crt`证书
@@ -123,11 +123,11 @@ http://chls.pro/ssl
 
 比如：把之前小米9中浏览器下载到的pem证书：
 
-![](../../../assets/img/previous_downloaded_charles_ssl_pem_file.png)
+![](../assets/img/previous_downloaded_charles_ssl_pem_file.png)
 
 （此处通过微信或QQ去）发送到手机，比如锤子M1L，中：
 
-![](../../../assets/img/charles_ssl_pem_file_in_qq.png)
+![](../assets/img/charles_ssl_pem_file_in_qq.png)
 
 然后点击去安装证书，后续流程和前面标准过程中就是一样的了。
 
@@ -137,13 +137,13 @@ http://chls.pro/ssl
 
 `Help -> SSL Proxying -> Save Charles Root Certificate`
 
-![](../../../assets/img/charles_save_root_certificate.png)
+![](../assets/img/charles_save_root_certificate.png)
 
 导出得到`pem`文件：
 
 `charles-ssl-proxying-certificate.pem`
 
-![](../../../assets/img/exported_charles_ssl_proxying_certificate_pem.png)
+![](../assets/img/exported_charles_ssl_proxying_certificate_pem.png)
 
 从图中可以看出，也可以导出`cer`格式的证书文件的。
 
@@ -155,11 +155,11 @@ http://chls.pro/ssl
 
 `受信任的凭据 -> 用户` 是空的：
 
-![](../../../assets/img/trusted_credential_user_empty.png)
+![](../assets/img/trusted_credential_user_empty.png)
 
 `用户凭据`中也是空的：
 
-![](../../../assets/img/user_credential_also_empty.png)
+![](../assets/img/user_credential_also_empty.png)
 
 下面整理一些无法安装证书的情况：
 
@@ -169,7 +169,7 @@ http://chls.pro/ssl
 
 比如小米9中QQ浏览器点击`pem`证书文件，结果只弹出了爱奇艺，而不是开始安装的界面：
 
-![](../../../assets/img/xiaomi_9_qq_browser_click_pem_show_aiqiyi.png)
+![](../assets/img/xiaomi_9_qq_browser_click_pem_show_aiqiyi.png)
 
 ### 直接从系统设置中搜索到的安装证书是无法直接点击安装的
 
@@ -180,9 +180,9 @@ http://chls.pro/ssl
 比如，小米9中的设置中：
 
 * 搜`安装证书`，点击`安装证书`，提示`没有可安装的证书`
-  * ![](../../../assets/img/xiaomi_9_setting_search_install_cert_click_fail.png)
+  * ![](../assets/img/xiaomi_9_setting_search_install_cert_click_fail.png)
 * 搜`安装`，点击`从存储设备安装`，提示`没有可安装的证书`
-  * ![](../../../assets/img/xiaomi_9_setting_click_install_from_device_fail.png)
+  * ![](../assets/img/xiaomi_9_setting_click_install_from_device_fail.png)
 
 ### 有时候从ES文件管理器中点击证书选择证书安装程序去安装都无效
 
@@ -190,11 +190,11 @@ http://chls.pro/ssl
 
 选择`其他`方式去打开：
 
-![](../../../assets/img/xiaomi_9_es_pem_open_by_other.png)
+![](../assets/img/xiaomi_9_es_pem_open_by_other.png)
 
 再去选，觉得应该可以的，`证书安装程序`：
 
-![](../../../assets/img/xiaomi_9_cert_install_tool_to_install.png)
+![](../assets/img/xiaomi_9_cert_install_tool_to_install.png)
 
 结果都没任何反应，证书最终都没有正确安装。
 
@@ -205,30 +205,30 @@ http://chls.pro/ssl
 比如：
 
 * 小米9中是：`设置 -> 更多设置 -> 系统安全 -> 加密与凭据 -> 从存储设备安装`
-  * ![](../../../assets/img/xiaomi_9_setting_system_and_security.png)
-  * ![](../../../assets/img/xiaomi_9_setting_encrypt_and_credential.png)
+  * ![](../assets/img/xiaomi_9_setting_system_and_security.png)
+  * ![](../assets/img/xiaomi_9_setting_encrypt_and_credential.png)
 * 小米4中是：`设置 -> 其他高级设置 -> 安全和隐私 -> 凭据存储 -> 从存储设备安装`
-  * ![](../../../assets/img/xiaomi_4_setting.png)
-  * ![](../../../assets/img/xiaomi_4_other_advanced_setting.png)
-  * ![](../../../assets/img/xiaomi_4_security_and_privacy.png)
-  * ![](../../../assets/img/xiaomi_4_credential_storage.png)
+  * ![](../assets/img/xiaomi_4_setting.png)
+  * ![](../assets/img/xiaomi_4_other_advanced_setting.png)
+  * ![](../assets/img/xiaomi_4_security_and_privacy.png)
+  * ![](../assets/img/xiaomi_4_credential_storage.png)
 
 点击`从存储设备安装`后，进入文件选择界面
 
 注意：刚进入文件选择界面时，会默认显示的`最近`里往往是空的，看不到我们要的证书文件：
 
-![](../../../assets/img/choose_file_default_recent_empty.png)
+![](../assets/img/choose_file_default_recent_empty.png)
 
 所以要去点击左上角三个横线，去切换到手机的存储设备中：
 
 此处是`MI 9`：
 
-![](../../../assets/img/xiaomi_9_open_doc_choose_mi_9.png)
+![](../assets/img/xiaomi_9_open_doc_choose_mi_9.png)
 
 然后找到刚才下载到的证书文件：
 
-![](../../../assets/img/xiaomi_9_mi_9_download_folder.png)
+![](../assets/img/xiaomi_9_mi_9_download_folder.png)
 
-![](../../../assets/img/xiaomi_9_mi_9_downloaded_pem_file.png)
+![](../assets/img/xiaomi_9_mi_9_downloaded_pem_file.png)
 
 点击对应证书文件，此处的`pem`文件，即可正常继续安装。

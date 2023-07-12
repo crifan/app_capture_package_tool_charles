@@ -34,6 +34,9 @@
       * ![](../../assets/img/ugreen_usb_to_rj45_20260.png)
     * [绿联的20255 USB3.0千兆有线网卡转RJ45网线接口转换器](https://item.jd.com/1196493.html)
       * ![](../../assets/img/ugreen_usb_to_rj45_20255.png)
+    * 绿联的USB转网口产品：绿联 CM252
+      * [绿联 USB3.0分线器HUB延长线千兆有线网卡网口转换器RJ45网线接口扩展坞](https://item.jd.com/55010757635.html)
+        * ![usb_ugreen_cm252](../../assets/img/usb_ugreen_cm252.png)
     * 我用的是另外类似的一款，带USB的USB转RJ45：
       * ![](../../assets/img/ugreen_usb_to_lan_with_usb.jpg)
   * 然后接到Mac上：
@@ -42,7 +45,6 @@
   * 有线网卡：`AX88179 USB 3.0 to Gigabit Ethernet`
   * 和对应IP地址：`10.108.129.57`
   * ![](../../assets/img/mac_local_wired_network.png)
-
 
 > #### info:: 有线和无线网络的IP地址范围略有不同是正常的
 > 很明显，此处
@@ -114,4 +116,4 @@ Proxy menu.
 
 想要Charles抓包https的话，相关设置要稍微复杂一点。
 
-详见后续内容：[复杂的https请求](http://book.crifan.com/books/app_capture_package_tool_charles/website/how_capture_app/complex_https/README.html)
+详见后续内容：[复杂的https请求](../../how_capture_app/complex_https/README.md)

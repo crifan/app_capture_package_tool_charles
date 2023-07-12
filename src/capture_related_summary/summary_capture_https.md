@@ -10,15 +10,15 @@ https://api.music.xiaomi.com
 
 抓包显示的是`unknown`：
 
-![](../../assets/img/charles_capture_unknown_for_not_enalbe_ssl.jpg)
+![](../assets/img/charles_capture_unknown_for_not_enalbe_ssl.jpg)
 
 右键 -> `Enable SSL Proxying` 去开启SSL：
 
-![Charles开启SSL](../../assets/img/charles_right_enable_ssl_proxying.png)
+![Charles开启SSL](../assets/img/charles_right_enable_ssl_proxying.png)
 
 后，就可以看到https的明文了：
 
-![](../../assets/img/charles_show_plain_https_data.jpg)
+![](../assets/img/charles_show_plain_https_data.jpg)
 
 ## Charles自带解释如何在移动端安装ssl证书
 
@@ -26,7 +26,7 @@ https://api.music.xiaomi.com
 
 `Help -> SSL Proxying -> Install Charles Root Cerificate on Mobile Device or Remote Browser`
 
-![](../../assets/img/charles_install_ssl_remote_mobile.png)
+![charles_install_ssl_remote_mobile](../assets/img/charles_install_ssl_remote_mobile.png)
 
 则会自动弹出解释：
 
@@ -51,7 +51,7 @@ chls.pro/ssl
 
 比如：
 
-![](../../assets/img/charles_see_some_https_assets.jpg)
+![](../assets/img/charles_see_some_https_assets.jpg)
 
 就是：
 
@@ -64,4 +64,4 @@ chls.pro/ssl
 
 ### 如何才能看到https的明文
 
-详见后续需要详细解释的：[破解https的SSL Pinning](http://book.crifan.com/books/app_capture_package_tool_charles/website/how_capture_app/complex_https/https_ssl_pinning.html)
+详见后续需要详细解释的：[破解https的SSL Pinning](../how_capture_app/complex_https/https_ssl_pinning/README.md)

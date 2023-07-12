@@ -35,4 +35,4 @@
 
 ![](../assets/img/charles_show_filtered_api.png)
 
-注：此处https接口显示unknown，则是另外的事情了。需要后续去解决[破解https的SSL Pinning](http://book.crifan.com/books/app_capture_package_tool_charles/website/how_capture_app/complex_https/https_ssl_pinning.html)
+注：此处https接口显示unknown，则是另外的事情了。需要后续去解决[破解https的SSL Pinning](../how_capture_app/complex_https/https_ssl_pinning/README.md)

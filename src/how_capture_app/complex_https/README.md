@@ -1,6 +1,6 @@
 # 复杂的https请求
 
-接着介绍如何用Charles，配合其他相关工具，如夜神安卓模拟器，XPosed框架或太极Magisk框架，以及插件JustTrustMe等，去实现抓包app中加了密的https的请求，即绕过https，看到明文的数据。
+接着介绍如何用`Charles`配合其他相关工具，如`夜神`安卓模拟器，`Xposed框架`或`太极Magisk`框架，以及插件`JustTrustMe`等，去实现抓包app中加了密的https的请求，即绕过https，看到明文的数据。
 
 ## Charles抓包移动端app的https请求的流程
 
@@ -64,27 +64,30 @@
 
 接着就是去移动端的手机中安装Charles的ssl证书。
 
-核心步骤：
+概述：
 
-* 得到Charles的手机端的证书
-  * 有两种方式
-    * 自己下载
-      * 手机端打开`http://chls.pro/ssl`，会自动弹框去下载得到ssl证书
-        * 比如：`charles-ssl-proxying-certificate.pem`
-        * 注意：事先要给手机端设置好Charles的代理，否则只能打开和看到普通网页，无法弹框下载
-    * 从别处拷贝
-      * 从PC端Charles导出手机端要安装的证书
-        * 比如：`charles-ssl-proxying-certificate.cer`
-      * 别人下载好的 或 你自己之前下载好的，拷贝或发送到手机端
-* 去安装证书
-  * 直接点击即可开始安装
-    * 如果不行，则通过`从存储设备安装`去安装，确定是可以安装的
-  * 安装期间的设置
-    * 凭据类型：`VPN和应用`
-      * 不能选`WLAN`
-  * 安装完毕后确定安装成功
-    * `受信任的凭据 -> 用户` 中可以看到已安装`XK72 Ltd Charles Proxy CA`字样的证书
+* Android端
+  * 得到Charles的手机端的证书
+    * 有两种方式
+      * 自己下载
+        * 手机端打开 http://chls.pro/ssl ，会自动弹框去下载得到ssl证书
+          * 比如：`charles-ssl-proxying-certificate.pem`
+          * 注意：事先要给手机端设置好Charles的代理，否则只能打开和看到普通网页，无法弹框下载
+      * 从别处拷贝
+        * 从PC端Charles导出手机端要安装的证书
+          * 比如：`charles-ssl-proxying-certificate.cer`
+        * 别人下载好的 或 你自己之前下载好的，拷贝或发送到手机端
+  * 去安装证书
+    * 直接点击即可开始安装
+      * 如果不行，则通过`从存储设备安装`去安装，确定是可以安装的
+    * 安装期间的设置
+      * 凭据类型：`VPN和应用`
+        * 不能选`WLAN`
+    * 安装完毕后确定安装成功
+      * `受信任的凭据 -> 用户` 中可以看到已安装`XK72 Ltd Charles Proxy CA`字样的证书
+* iOS端
+  * iPhone中打开 http://chls.pro/ssl ，按照提示下载安装证书，以及信任证书
 
-详细过程：
+详解：
 
-详见后续的：[移动端安装Charles的ssl证书](http://book.crifan.com/books/app_capture_package_tool_charles/website/how_capture_app/complex_https/mobile_install_ssl_ca.html)
+详见后续章节：[移动端安装ssl证书](../../how_capture_app/complex_https/mobile_install_ssl_ca/README.md)

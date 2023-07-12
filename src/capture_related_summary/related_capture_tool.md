@@ -30,15 +30,8 @@
 
 旧版本网易MuMu无法设置Wifi代理，现在新版已经可以正常设置Wifi代理（为Charles）了
 
-## XPosed类框架
+## Xposed类框架
 
-* XPosed框架
-* VirtualXposed
-* 太极Magisk
-
-## 禁用ssl相关插件
-
-* JustTrustMe
-* 其他没用过但听说过的
-  * Android-SSL-TrustKiller
-  * SSL Kill Switch 2
+* [Xposed框架](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
+* `VirtualXposed`
+* `太极`=`Magisk`
