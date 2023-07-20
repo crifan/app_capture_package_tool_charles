@@ -23,4 +23,18 @@
 
 此处主要介绍，用于`Mac`中网络抓包的工具：`Charles`
 
-目前主要被自己用来去配合抓包安卓手机和iPhone手机的app的网络请求，尤其是部分app内部用https通信，此处用Charles配合其他工具，实现绕开https，抓包看到https的明文数据。
+* Charles
+  * 支持平台：`Windows`/`Mac`
+  * 典型用途
+    * 去配合抓包Android手机和iPhone手机的app的网络请求，尤其是部分app的https加密数据
+      * 此处用Charles配合其他工具，实现绕开https，抓包看到https的明文数据
+  * Logo
+    * ![charles_logo](../assets/img/charles_logo.png)
+  * 主页
+    * https://www.charlesproxy.com/
+  * 长什么样=截图
+    * 显示抓包内容
+      * Structure=左边数树状结构
+        * ![charles_ui_structure](../assets/img/charles_ui_structure.png)
+      * Sequence=按时间先后排序列表
+        * ![](../assets/img/charles_ui_sequence.png)
