@@ -62,7 +62,7 @@
 > #### info:: 夜神模拟器
 > 关于夜神的更多解释详见：
 > 
-> [好用的安卓模拟器：夜神Nox](https://book.crifan.com/books/good_android_emulator_nox/website/)
+> [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
 
 ## 安装Xposed框架
 
@@ -111,7 +111,7 @@ XposedBridge.jar  激活 54 程序自带 54
 > #### info:: Xposed框架
 > 关于Xposed框架的更多解释详见：
 > 
-> [强大的安卓破解辅助工具：Xposed框架](https://book.crifan.com/books/powerful_crack_tool_xposed_framework/website/)
+> [安卓逆向调试：XPosed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
 
 ## 安装JustTrustMe
 

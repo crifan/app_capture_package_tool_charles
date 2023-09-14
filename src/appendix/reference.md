@@ -56,8 +56,8 @@
 * 【记录】购买绿联的USB转接头CM252转换出有线网卡接口
 * 【已解决】Mac Catalina中用绿联的USB多功能扩展坞的有线网卡接口使用有线网络
 * 
-* [【整理】Mac中用Charles抓包iOS或Android手机app中包括https的数据](http://www.crifan.com/mac_use_charles_capture_crawl_ios_android_phone_app_data_include_https_package)
-* [【已解决】Charles无法抓包部分加了SSL Certificate Pinning的https包](http://www.crifan.com/charles_cannot_crawl_parital_https_request_package_which_using_ssl_cerificate_pinning)
+* [【整理】Mac中用Charles抓包iOS或Android手机app中包括https的数据](http://www.crifan.org/mac_use_charles_capture_crawl_ios_android_phone_app_data_include_https_package)
+* [【已解决】Charles无法抓包部分加了SSL Certificate Pinning的https包](http://www.crifan.org/charles_cannot_crawl_parital_https_request_package_which_using_ssl_cerificate_pinning)
 * 
 * [当你写爬虫抓不到APP请求包的时候该怎么办？【中级篇】 - 知乎](https://zhuanlan.zhihu.com/p/56397466)
 * [charles 抓其他应用的 https 请求 7.0 以后 有什么好方法吗？ - V2EX](https://www.v2ex.com/t/528852)

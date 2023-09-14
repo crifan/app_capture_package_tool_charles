@@ -62,7 +62,7 @@
 * iOS
   * ![](../../assets/img/iphone6_config_proxy_manual.png)
 
-关于手机端设置Wifi代理的详细介绍，参见后续章节：[移动端设置Wifi代理](http://book.crifan.com/books/app_capture_package_tool_charles/website/how_capture_app/simple_http/mobile_set_wifi_proxy.html)
+关于手机端设置Wifi代理的详细介绍，参见后续章节：[移动端设置代理](../../how_capture_app/simple_http/mobile_proxy/README.md)
 
 ### Charl开启抓包
 
