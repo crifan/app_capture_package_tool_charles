@@ -32,6 +32,8 @@
 
 ## Xposed类框架
 
-* [Xposed框架](https://book.crifan.org/books/crack_assistant_xposed_framework/website/)
-* `VirtualXposed`
-* `太极`=`Magisk`
+* [Xposed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
+  * 免root的，类Xposed的框架
+    * [VirtualXposed](https://book.crifan.org/books/android_re_xposed_framework/website/xposed_intro/similar/virtualxposed.html)
+    * [太极](https://book.crifan.org/books/android_re_xposed_framework/website/xposed_intro/similar/taichi.html)
+    * [LSPatch](https://book.crifan.org/books/android_re_xposed_framework/website/xposed_intro/similar/lspatch.html)
