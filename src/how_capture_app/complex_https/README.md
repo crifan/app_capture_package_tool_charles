@@ -6,20 +6,22 @@
 
 核心步骤和思路：
 
-* 电脑中
+* 电脑端
   * 安装Charles的根证书
     * Mac
       * 用钥匙串去信任Charles的根证书
   * Charles中
     * 启用 `Enable SSL Proxying`
       * 再设置对应的过滤api地址
-* 手机
-  * app中
-    * 安装Charles的根证书
+* 手机端
+  * 安装Charles的根证书
+    * Android
       * 注意类型选择为：`VPN和应用`
         * 不要选择：WLAN
       * 确保证书安装成功
         * `受信任凭据 -> 用户` 中可以看到已安装的Charles证书
+    * iOS
+      * 安装证书后，`iOS 10.3+`还需要信任根证书
 
 下面详细介绍如何操作。
 

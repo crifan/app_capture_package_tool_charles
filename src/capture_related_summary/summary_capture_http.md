@@ -1,4 +1,4 @@
-# Charles抓包普通http的常见问题
+# Charles抓包普通http的心得
 
 ## 手机端已设置Charles代理但无法使用网络
 
@@ -15,9 +15,9 @@
 如果各种配置都正常，但是手机端还是无法上网：
 
 * 小米4无法访问网络
-  * ![](../../assets/img/xiaomi_4_proxy_not_work_error.png)
+  * ![](../assets/img/xiaomi_4_proxy_not_work_error.png)
 * 锤子M1L中无法使用访问
-  * ![](../../assets/img/mobile_android_network_not_work.png)
+  * ![](../assets/img/mobile_android_network_not_work.png)
 
 这时候可以去试试：
 
@@ -26,25 +26,25 @@
 #### Mac中如何使用有线网络
 
 * 关闭无线Wifi
-  * ![](../../assets/img/mac_disable_wireless_wifi.png)
+  * ![](../assets/img/mac_disable_wireless_wifi.png)
 * 电脑接上有线网络
   * 此处`Mac Pro`默认没有网口，可以用**USB转网口**转换器
   * 比如
     * [绿联的20260 USB转RJ45网线接口](https://item.jd.com/983704.html)
-      * ![](../../assets/img/ugreen_usb_to_rj45_20260.png)
+      * ![](../assets/img/ugreen_usb_to_rj45_20260.png)
     * [绿联的20255 USB3.0千兆有线网卡转RJ45网线接口转换器](https://item.jd.com/1196493.html)
-      * ![](../../assets/img/ugreen_usb_to_rj45_20255.png)
+      * ![](../assets/img/ugreen_usb_to_rj45_20255.png)
     * 绿联的USB转网口产品：绿联 CM252
       * [绿联 USB3.0分线器HUB延长线千兆有线网卡网口转换器RJ45网线接口扩展坞](https://item.jd.com/55010757635.html)
-        * ![usb_ugreen_cm252](../../assets/img/usb_ugreen_cm252.png)
+        * ![usb_ugreen_cm252](../assets/img/usb_ugreen_cm252.png)
     * 我用的是另外类似的一款，带USB的USB转RJ45：
-      * ![](../../assets/img/ugreen_usb_to_lan_with_usb.jpg)
+      * ![](../assets/img/ugreen_usb_to_lan_with_usb.jpg)
   * 然后接到Mac上：
-  * ![](../../assets/img/mac_use_ugreen_lan_wired_network.jpg)
+  * ![](../assets/img/mac_use_ugreen_lan_wired_network.jpg)
   * 电脑上即可看到：
   * 有线网卡：`AX88179 USB 3.0 to Gigabit Ethernet`
   * 和对应IP地址：`10.108.129.57`
-  * ![](../../assets/img/mac_local_wired_network.png)
+  * ![](../assets/img/mac_local_wired_network.png)
 
 > #### info:: 有线和无线网络的IP地址范围略有不同是正常的
 > 很明显，此处
@@ -62,7 +62,7 @@
 
 注意到手机端刚刚设置Charles的Wifi代理后，手机中的Wifi会提示：`已连接，但是无法访问互联网`
 
-![已连接，但是无法访问互联网](../../assets/img/xiaomi_wifi_connected_but_not_work.png)
+![已连接，但是无法访问互联网](../assets/img/xiaomi_wifi_connected_but_not_work.png)
 
 意味着：此时手机还无法正常使用网络
 
@@ -75,7 +75,7 @@ address until you restart Charles. Access controls are maintained in the Access 
 Proxy menu.
 ```
 
-![Charles弹框提示是否允许网络](../../assets/img/charles_pop_connection_from_click_allow.png)
+![Charles弹框提示是否允许网络](../assets/img/charles_pop_connection_from_click_allow.png)
 
 此时要点击`Allow`去允许使用网络，然后手机端才能正常使用Charles代理去访问网络。
 
@@ -83,11 +83,11 @@ Proxy menu.
 
 `Proxy -> Access Control Settings`：
 
-![](../../assets/img/charles_access_control_settings.png)
+![](../assets/img/charles_access_control_settings.png)
 
 中看到你的手机的IP：
 
-![](../../assets/img/charles_ip_range_show_allowed_ip.png)
+![](../assets/img/charles_ip_range_show_allowed_ip.png)
 
 ## Charles抓包看到unknown是什么意思
 
@@ -95,7 +95,7 @@ Proxy menu.
 
 对于https的请求来说，Charles中抓包：
 
-![](../../assets/img/charles_https_show_unknown.png)
+![](../assets/img/charles_https_show_unknown.png)
 
 * 接口显示的是：`<unknown>`
 * Method是：`CONNECT`

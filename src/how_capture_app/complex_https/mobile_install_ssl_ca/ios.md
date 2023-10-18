@@ -41,21 +41,3 @@ http://charlesproxy.com/getssl
 ![](../../../assets/img/charles_ca_file_detail.png)
 
 ![](../../../assets/img/charles_ca_file_detail_more.png)
-
-## iOS 10.3+ 还需要信任根证书
-
-对于`iOS 10.3`之后的系统，还需要再去**信任根证书**才可以：
-
-`设置 → 通用 → 关于本机 → 证书信任设置`
-
-![](../../../assets/img/iphone_settins_general.png)
-
-![](../../../assets/img/iphone_about_ca_trust_setting.png)
-
-去点击勾选：`Charles Proxy CA`
-
-![](../../../assets/img/default_not_select_charles_proxy_ca.png)
-
-![](../../../assets/img/select_charles_proxy_ca_continue.png)
-
-![trusted_charles_proxy_ca](../../../assets/img/trusted_charles_proxy_ca.png)
