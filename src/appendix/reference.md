@@ -55,6 +55,9 @@
 * 【已解决】Mac Catalina中使用USB转接头转换出的有线网卡的网络
 * 【记录】购买绿联的USB转接头CM252转换出有线网卡接口
 * 【已解决】Mac Catalina中用绿联的USB多功能扩展坞的有线网卡接口使用有线网络
+* 【记录】iOS13中iPhone7尝试插件：SSLKillSwitch3
+* 【记录】iOS13中iPhone7尝试插件：SSLBypass
+* 【记录】iOS13中iPhone7中之前已安装过插件SSL Kill Switch 2
 * 
 * [【整理】Mac中用Charles抓包iOS或Android手机app中包括https的数据](http://www.crifan.org/mac_use_charles_capture_crawl_ios_android_phone_app_data_include_https_package)
 * [【已解决】Charles无法抓包部分加了SSL Certificate Pinning的https包](http://www.crifan.org/charles_cannot_crawl_parital_https_request_package_which_using_ssl_cerificate_pinning)
