@@ -59,7 +59,7 @@
 * 模拟的是：Android 4.4.2
   * ![](../../../../assets/img/nox_android_4_4_2.png)
 
-> #### info:: 夜神模拟器
+> [!TIP|title:夜神模拟器]
 > 关于夜神的更多解释详见：
 > 
 > [好用的安卓模拟器：夜神Nox](https://book.crifan.org/books/good_android_emulator_nox/website/)
@@ -108,7 +108,7 @@ XposedBridge.jar  激活 54 程序自带 54
 
 表示Xposed框架已激活，可以继续使用了。
 
-> #### info:: Xposed框架
+> [!TIP|title:Xposed框架]
 > 关于Xposed框架的更多解释详见：
 > 
 > [安卓逆向调试：XPosed框架](https://book.crifan.org/books/android_re_xposed_framework/website/)
