@@ -6,12 +6,21 @@
 * 绕过SSL pinning的工具
   * 插件=tweak=越狱插件
     * 最好用的是：`NyaMisty/ssl-kill-switch3`
+      * Repo源地址
+        * https://repo.misty.moe/apt/
       * 下载地址
         * https://github.com/NyaMisty/ssl-kill-switch3
-          * https://github.com/NyaMisty/ssl-kill-switch3/releases/tag/v1.0
-            * https://github.com/NyaMisty/ssl-kill-switch3/releases/download/v1.0/com.nablac0d3.sslkillswitch2_1.0_iphoneos-arm.deb
+          * https://github.com/NyaMisty/ssl-kill-switch3/releases
+            * [v1.5.1](https://github.com/NyaMisty/ssl-kill-switch3/releases/tag/v1.5.1)
+              * **rootfull**
+                * [moe.misty.sslkillswitch3_1.5.1+rootful_iphoneos-arm.deb](https://github.com/NyaMisty/ssl-kill-switch3/releases/download/v1.5.1/moe.misty.sslkillswitch3_1.5.1+rootful_iphoneos-arm.deb)
+              * roothide
+                * [moe.misty.sslkillswitch3_1.5.1+roothide_iphoneos-arm64e.deb](https://github.com/NyaMisty/ssl-kill-switch3/releases/download/v1.5.1/moe.misty.sslkillswitch3_1.5.1+roothide_iphoneos-arm64e.deb)
+              * rootless
+                * [moe.misty.sslkillswitch3_1.5.1+rootless_iphoneos-arm64.deb](https://github.com/NyaMisty/ssl-kill-switch3/releases/download/v1.5.1/moe.misty.sslkillswitch3_1.5.1+rootless_iphoneos-arm64.deb)
       * 插件详情
-        * ![ios_bypass_pinning_nyamisty_ssl_kill_switch3](../../../../assets/img/ios_bypass_pinning_nyamisty_ssl_kill_switch3.png)
+        * rootfull
+          * ![ios_bypass_pinning_nyamisty_ssl_kill_switch3](../../../../assets/img/ios_bypass_pinning_nyamisty_ssl_kill_switch3.png)
       * 效果
         * WhatsApp的https请求可以看到明文
           * https://v.whatsapp.net
