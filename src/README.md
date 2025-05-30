@@ -1,11 +1,11 @@
 # app抓包利器：Charles
 
-* 最新版本：`v2.3.0`
-* 更新时间：`20250123`
+* 最新版本：`v2.4.0`
+* 更新时间：`20250530`
 
 ## 简介
 
-介绍移动端app的主流抓包工具Charles，以及具体使用心得，如何抓包普通的http的请求，和更高级的加密的https的请求以看到明文数据。再介绍Charles使用期间的注意事项，常见的坑等。期间涉及到如何给安卓手机端安装Charles的ssl的CA证书，如何配合Xposed，JustTrustMe等框架、工具，ssl-kill-switch3、SSLBypass、SSL Kill Switch 2等插件等去实现绕过ssl证书绑定从而破解https，如何选择合适的可以用上JustTrustMe的安卓模拟器或者安卓真机。
+介绍移动端app的主流抓包工具Charles，以及具体使用心得，如何抓包普通的http的请求，和更高级的加密的https的请求以看到明文数据。再介绍Charles使用期间的注意事项，常见的坑等。期间涉及到如何给安卓手机端安装Charles的ssl的CA证书，如何配合Xposed，JustTrustMe等框架、工具，如何选择合适的可以用上JustTrustMe的安卓模拟器或者安卓真机。
 
 ## 源码+浏览+下载
 
